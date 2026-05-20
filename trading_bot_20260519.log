@@ -1,0 +1,9 @@
+2026-05-19 00:02:01 | INFO     | cli | CLI order request | symbol=BTCUSDT side=BUY type=MARKET qty=0.01 price=None
+2026-05-19 00:02:01 | DEBUG    | bot.client | BinanceClient initialised — base_url=https://testnet.binancefuture.com
+2026-05-19 00:02:01 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2026-05-19 00:02:01 | DEBUG    | bot.validators | Side validated: BUY
+2026-05-19 00:02:01 | DEBUG    | bot.validators | Order type validated: MARKET
+2026-05-19 00:02:01 | DEBUG    | bot.validators | Quantity validated: 0.01
+2026-05-19 00:02:01 | INFO     | bot.client | Placing MARKET BUY order | symbol=BTCUSDT qty=0.01
+2026-05-19 00:02:02 | ERROR    | bot.client | API error -2014: API-key format invalid.
+2026-05-19 00:02:02 | ERROR    | cli | API error: API error -2014: API-key format invalid.

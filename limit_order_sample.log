@@ -1,0 +1,12 @@
+2025-07-12 10:18:45 | INFO     | cli | CLI order request | symbol=BTCUSDT side=SELL type=LIMIT qty=0.01 price=99000.0
+2025-07-12 10:18:45 | DEBUG    | bot.validators | Symbol validated: BTCUSDT
+2025-07-12 10:18:45 | DEBUG    | bot.validators | Side validated: SELL
+2025-07-12 10:18:45 | DEBUG    | bot.validators | Order type validated: LIMIT
+2025-07-12 10:18:45 | DEBUG    | bot.validators | Quantity validated: 0.01
+2025-07-12 10:18:45 | DEBUG    | bot.validators | Price validated: 99000.0
+2025-07-12 10:18:45 | DEBUG    | bot.client | BinanceClient initialised — base_url=https://testnet.binancefuture.com
+2025-07-12 10:18:45 | INFO     | bot.client | Placing LIMIT SELL order | symbol=BTCUSDT qty=0.01 price=99000.0
+2025-07-12 10:18:45 | DEBUG    | bot.client | → POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 99000.0, 'timeInForce': 'GTC', 'timestamp': 1752311925304, 'recvWindow': 5000, 'signature': 'b7c1...'}
+2025-07-12 10:18:46 | DEBUG    | bot.client | ← 200 {"orderId":4751829183,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"web_Rp4nQz8wYx","price":"99000","avgPrice":"0.00000","origQty":"0.01","executedQty":"0","cumQty":"0","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"NONE","goodTillDate":0,"updateTime":1752311926002}
+2025-07-12 10:18:46 | INFO     | bot.client | Order placed successfully | orderId=4751829183 status=NEW
+2025-07-12 10:18:46 | INFO     | cli | Order submitted successfully.
